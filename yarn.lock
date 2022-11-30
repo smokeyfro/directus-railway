@@ -2711,6 +2711,11 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+directus-extension-editorjs@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/directus-extension-editorjs/-/directus-extension-editorjs-1.5.0.tgz#3fa32e663b42fa0396e9df0a70a34216f3ff69de"
+  integrity sha512-Rz0DCBp+Xulot6PEcfVnSUS9ekSO9VfnNMAMqA05i4p1REz3AXoWWO6wKE1p+1W+XNkZs9S1MvwVni6XGJzjcA==
+
 directus-extension-tags-m2m-interface@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/directus-extension-tags-m2m-interface/-/directus-extension-tags-m2m-interface-0.8.0.tgz#877971d7b70ee7773660340dd0ff8e988b068a5d"
