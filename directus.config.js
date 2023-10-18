@@ -1,17 +1,19 @@
 
 module.exports = function (env) {
     return {
+        
         // Railway inputs
         ADMIN_EMAIL: env.ADMIN_EMAIL,
         ADMIN_PASSWORD: env.ADMIN_PASSWORD,
         KEY: env.KEY,
         SECRET: env.SECRET,
 
-        STORAGE_LOCATIONS=cloudinary
-        STORAGE_CLOUDINARY_CLOUD_NAME=env.STORAGE_CLOUDINARY_CLOUD_NAME
-        STORAGE_CLOUDINARY_API_KEY=env.STORAGE_CLOUDINARY_API_KEY
-        STORAGE_CLOUDINARY_API_SECRET=env.STORAGE_CLOUDINARY_API_SECRET
-        STORAGE_CLOUDINARY_ACCESS_MODE=authenticated
+        // Cloudinary
+        STORAGE_LOCATIONS: 'cloudinary',
+        STORAGE_CLOUDINARY_CLOUD_NAME: env.STORAGE_CLOUDINARY_CLOUD_NAME,
+        STORAGE_CLOUDINARY_API_KEY: env.STORAGE_CLOUDINARY_API_KEY,
+        STORAGE_CLOUDINARY_API_SECRET: env.STORAGE_CLOUDINARY_API_SECRET,
+        STORAGE_CLOUDINARY_ACCESS_MODE: 'authenticated',
         
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
