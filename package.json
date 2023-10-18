@@ -9,7 +9,7 @@
     "node": ">=12.20.0"
   },
   "dependencies": {
-    "directus": "^10.6.1",
+    "directus": "^10.6.3",
     "pg": "^8.11.1",
     "directus-extension-tags-m2m-interface": "^0.8.0",
     "directus-extension-wpslug-interface": "^1.1.0"
